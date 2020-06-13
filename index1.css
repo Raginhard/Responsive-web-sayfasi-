@@ -18,11 +18,9 @@ body {
   background: #fff;
   overflow: hidden;
   break-inside: avoid;
-  /* The page-break-inside property sets whether a page-break should be avoided inside a specified element.
-
-Tip: The properties: page-break-before, page-break-after and page-break-inside help to define how a document should behave when printed.
-
-Note: You cannot use this property on absolutely positioned elements. */
+  /* break-inside özelliği belirtilen bir öğenin içinde sayfa sonundan kaçınılıp-kaçınmayacağını belirtmemize yardımcı olur
+İpucu: Özellikler: page-break-before ve page-break-after, bir belgenin yazdırıldığında nasıl davranması 
+  gerektiğini tanımlamaya yardımcı olur. */
 }
 .container .box > img {
   max-width: 100%;
